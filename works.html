@@ -94,8 +94,8 @@
 				    <div class="sidebar box sticky-column">
 	                    <ul class="nav">
                             <li class="nav__item"><a href="index.html"><i class="icon-user"></i>简单介绍</a></li>
-							<li class="nav__item"><a href="resume.html"><i class="icon-file-text"></i>教育经历</a></li>
-                            <li class="nav__item"><a class="active" href="works.html"><i class="icon-codesandbox"></i>工作经历</a></li>
+							<li class="nav__item"><a class="active" href="works.html"><i class="icon-codesandbox"></i>工作经历</a></li>
+							<li class="nav__item"><a href="education.html"><i class="icon-file-text"></i>教育经历</a></li>                            
 							</a></li>
                         </ul>
 					</div>
@@ -108,14 +108,36 @@
 								<div class="timeline">
 									<!-- Item -->
 									<article class="timeline__item">
-										<h2 class="title title--h2 timeline__title">康如来科技</h5>
+										<h1 class="title title--h1 timeline__title">康如来科技</h1>
 										<span class="timeline__period">2020.6 — 至今</span>
 										<p class="timeline__description">
-											<h5> 项目简介 </h5>
-												<h6> 1、静态心电项目 </h6>		
-													<p> a、对医院上传采集心电通过自己编写算法，对心电特征点进行检波，实现对心电数据的分析。</p>
-													<p> a、对医院上传采集心电通过自己编写算法，对心电特征点进行检波，实现对心电数据的分析。</p>
-										</p>	
+										<h3> 项目简介 </h3>
+										    <fieldset>
+												<legend> 1、静态心电项目 </legend>		
+													<p>该项目基于MFC，一个集心电采集和分析于一体的项目。包含从病人数据采集到上传服务器后派发给医生分析，以及报告反馈给病人的整个流程。目前使用医院达几百家，且均正常使用，未反馈异常。</p>
+													<p>该项目包含对数据的采集，存储，数据库的管理，数据上传下载，心电数据绘制，特征点检测，打印PDF等一系列功能。</p>
+													<p>该项目包含多线程，多进程，同异步通信机制，内存管理，数据结构设计，图形学算法，频域算法，Socket，WebService。MySQL，GDI，GDI+，Windows安装包的，DLL，JSON，XML开发等一系列技术。</p>
+													<h6> 主要职责 </h6>
+														<p> a、该项目的唯一负责人。</p>
+														<p> b、包含心电检测算法的编写。</p>
+														<p> c、包含新功能的评估和新功能的实现。</p>
+														<p> d、包含对服务器数据库的管理。</p>
+											</fieldset>
+											<fieldset>
+												<legend> 2、心电Web </legend>
+													<p>该项目基于.Net Framework，包含从基层医院上传数据和与其他合作公司对接的一系列Web Services接口。
+													</p>
+													<h6> 主要职责 </h6>
+														<p> a、该项目的唯一负责人。</p>
+														<p> b、与合作公司的接口沟通和接口的编写及运维。</p>
+											</fieldset>
+											<fieldset>
+												<legend> 3、员工管理系统 </legend>
+													<p>该项目基于Qt平台，为应对员工逐渐增多，管理混乱，因此，开发的一个管理系统客户端，包含对员工信息的管理，周报的管理，权限的管理等一些列功能，该项目包含Web Services，Http，数据库等一系列技术。</p>
+													<h6> 主要职责 </h6>
+														<p> a、该项目的唯一负责人。</p>
+														<p> b、从0到1的完整开发。</p>
+											</fieldset>			
 									</article>
 								
 									<!-- Item -->
@@ -123,17 +145,19 @@
 										<h2 class="title title--h2 timeline__title">微云科技</h5>
 										<span class="timeline__period">2016.9 — 2020.6</span>
 										<p class="timeline__description">
-											<h5> 项目简介 </h5>
-												<h6> PCB字符打印机 </h6>										
-													<p>PCB字符打印机系统，通过对PCB文件（Gerber，ODB++。。）的读取和解析，生成相应图像并通过硬件打印。基于MFC框架，使用OpenCV图像算法对CCD图像进行处理，使产品打印精度达到um级别，成为同类型产品的佼佼者。
-													</p>
-											<h5> 主要职责 </h5>
-												<p> a、根据部门的相关制度及流程，开发业务需求。</p>
-												<p> b、负责对公司产品进行代码设计与审核、测试、联试等相关工作。</p>
-												<p> c、负责提供项目技术支持。</p>
-												<p> d、负责按时、保质完成相关项目开发工作。</p>
-												<p> e、对新员工的代码进行审查。</p>
-												<p> f、公司软件相关文档的的编写，对专利和著作权文档的的编写。</>
+											<h4> 项目简介 </h4>
+												<h5> PCB字符打印机 </h5>										
+													<p>PCB字符打印机系统，基于MFC框架，通过对PCB文件（Gerber，ODB++。。）的读取和解析，生成相应图像并通过硬件打印，使用OpenCV图像算法对CCD图像进行处理，使产品打印精度达到um级别，成为同类型产品的佼佼者。</p>
+													<p>该项目包含文件读取，解析，生成图像，对位，打印等一系列功能。</p>
+													<p>该项目包含多线程，多进程，异步通信机制，内存管理，数据结构设计，图形学算法，图像处理算法，OpenCV，GDI等一系列技术。</p>
+													<h6> 主要职责 </h6>
+														<p> a、对文件的读取和图像的生成模块从0到1的完整开发。<p>
+														<p> a、根据部门的相关制度及流程，开发业务需求。</p>
+														<p> b、负责对公司产品进行代码设计与审核、测试、联试等相关工作。</p>
+														<p> c、负责提供项目技术支持。</p>
+														<p> d、负责按时、保质完成相关项目开发工作。</p>
+														<p> e、对新员工的代码进行审查。</p>
+														<p> f、公司软件相关文档的的编写，对专利和著作权文档的的编写。</p>
 									</article>
 
 									
